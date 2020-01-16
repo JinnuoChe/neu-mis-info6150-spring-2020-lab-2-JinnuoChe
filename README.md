@@ -2,8 +2,8 @@
 
 Create a separate HTML page for each of the below exercises.
 
-Create a simple HTML page with typography and links.
-Create a simple HTML form.
-Create a simple HTML table.
+Create a simple HTML page with typography and links.<br>
+Create a simple HTML form.<br>
+Create a simple HTML table.<br>
 Create a simple SVG object in a HTML page.
 
