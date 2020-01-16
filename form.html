@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+  <form action = "typography.html" method="get">
+
+      <fieldset>
+          <legend>name</legend>
+          <input type="text" value="name">
+      </fieldset>
+      <div>
+      <label>
+          Date of brith
+      </label>
+      <input type="date" value="dob">
+      </div>
+      <div>
+          <label>
+              Gender
+          </label>
+          <input type="radio" name="gender" value="female" >
+          <input type="radio" name="gender" value="male">
+
+      </div>
+      <div>
+          <input list="browsers" name="option">
+          <datalist id="browsers">
+              <option value="option1">
+              <option value="option2">
+              <option value="option3">
+              <option value="option4">
+          </datalist>
+
+      </div>
+      <div>
+          <label>
+              <button formmethod="post" formmethod="get" type="submit">submit</button>
+          </label>
+      </div>
+  </form>
+</body>
+</html>
